@@ -74,6 +74,10 @@ for page in response.json()["results"]:
                 new_request_by_code = requests.get(base_crypto_url + "?start=" + str(i) + "&limit=100").json()['data']
                 new_coin = next((item for item in new_request_by_code if item["symbol"] == asset_code), None)
                 if new_coin is None:
+                    if i > 10000:
+                        i = 0
+                        print("Can not update " + asset_code + " coin. Perhaps TICKER is incorrect.")
+                        break
                     continue
 
                 update_price(new_coin)
