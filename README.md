@@ -1,4 +1,4 @@
-# notion-portfolio-wallet
+# Notion Portfolio Wallet
 Free portfolio template to keep your assets in order
 
 * calculate your portfolio items in percent
@@ -50,3 +50,8 @@ Verify
 
 Script and tamplate based on [this](https://www.notion.so/Portfolio-Template-26e74df51b3147e1a6db4609abd6e0b8).
 
+ # Donate
+
+    BTC: bc1quxyslea2rw7ys40qc5ymnteeu74xn9kmgqqmyv
+    ETH/L2: 0x890290037b86c6b21480311686eE24A343C884E3
+    TRON/TRC-20: TN2P5TwNFnRGTc9aDQ3ftC8L5nujpEc71Y
